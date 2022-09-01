@@ -1,0 +1,124 @@
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+
+
+}
+
+.header {
+    font-size: 35px;
+    /*to make h1 font size larger*/
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    /*to make a line on the left side of my header and the clolor is like sunset which linear-gradient make*/
+    padding-left: 10px;
+
+}
+
+.mission-color {
+    color: burlywood;
+    /* for mission 2022 coloring*/
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.First-section {
+    width: 100%;
+
+}
+
+.First-section img {
+    width: 70%;
+    /*this is for making images big or small*/
+    margin-left: 50px;
+}
+
+button {
+    font-size: 15px;
+    color: aqua;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 10px 30px;
+    border-radius: 8px;
+
+}
+
+small {
+    display: block;
+    margin-top: 20px;
+}
+
+/*Start of the second section which is My mission in 2022*/
+
+.second-mission {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+span {
+    color: burlywood;
+}
+
+.Second-section {
+    width: 300px;
+    height: 300px;
+    border: 20px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 10px;
+
+}
+
+.Second-section img {
+    width: 150px;
+}
+
+.third-section img {
+    width: 400px;
+    margin-top: 40px;
+}
+
+#thrid-background-pic {
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: -10% 110%;
+}
+
+.third-section-writing {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#backgroung-pic {
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 90% 120%;
+
+}
+
+.fourth-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.fourth-section img {
+    width: 70%;
+
+}
+
+footer p {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+    border: 50px 60px;
+    background-color: black;
+    background-position: bottom;
+}
